@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: Arial, helvetica, sans-serif;
+}
+.active {
+  color: #09c386;
+}
+body {
+  background-image: url(../photos/background.png);
+}
+h3 {
+  padding: 10px 10px 20px;
+  text-align: center;
+  font-size: x-larger;
+  color: #202020;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#myname {
+  position: absolute;
+  font-size: 40px;
+  padding: 5px 25px 5px;
+  font-weight: 100;
+  color: white;
+}
+ul {
+  position: relative;
+  right: 130px;
+  padding: 12px 35px;
+  display: block;
+  float: right;
+}
+li {
+  display: inline;
+  list-style: none;
+  opacity: 0.6;
+}
+
+li a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 0px 30px;
+  font-size: x-large;
+}
+#content {
+  background-image: url(../photos/background1.png);
+  background-size: cover;
+  background-position: center;
+  height: 885px;
+  margin: 40px 40px;
+  overflow: hidden;
+}
+#main-header {
+  background-color: #202020;
+  height: 60px;
+  box-sizing: border-box;
+}
+#calculater {
+  position: relative;
+  box-sizing: border-box;
+  margin: 40px;
+  background-color: rgb(237, 243, 237);
+  width: 500px;
+  overflow: hidden;
+  border-style: groove white;
+  border-radius: 8px;
+  left: 400px;
+  top: 60px;
+}
+input {
+  padding: 15px 10px;
+  width: 200px;
+  margin: 5px;
+  border-style: rgb(0, 0, 0, 0.9);
+}
+
+.button {
+  position: relative;
+  left: 300px;
+  top: -120px;
+  padding: 8px;
+  margin: 2px;
+}
+.button:hover {
+  background-color: rgb(248, 248, 192);
+}
+.button:last-child {
+  display: block;
+  position: relative;
+  left: 340px;
+}

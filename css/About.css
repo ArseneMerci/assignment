@@ -79,8 +79,6 @@ input {
 
 .button {
   position: relative;
-  left: 300px;
-  top: -120px;
   padding: 8px;
   margin: 2px;
 }
@@ -91,4 +89,5 @@ input {
   display: block;
   position: relative;
   left: 340px;
+  top: -120px;
 }

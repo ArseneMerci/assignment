@@ -1,57 +1,61 @@
-function add() {
+function Us() {
   var nbr1 = document.getElementById("nbr1").value;
-  var nbr2 = document.getElementById("nbr2").value;
   var c = parseInt(nbr1, 10);
-  var d = parseInt(nbr2, 10);
-  var e = c + d;
+  var e = c / 961.83;
   if (isNaN(e)) {
     document.getElementById("result").style.backgroundColor = "red";
-    document.getElementById("result").value = "Enter Numbers";
+    document.getElementById("result").value = "Enter The Rwanda fr";
   } else {
     document.getElementById("result").style.backgroundColor = "chartreuse";
-    document.getElementById("result").value = e;
+    document.getElementById("result").value = e + "$";
   }
 }
-function sub() {
+function Canada() {
   var nbr1 = document.getElementById("nbr1").value;
-  var nbr2 = document.getElementById("nbr2").value;
   var c = parseInt(nbr1, 10);
-  var d = parseInt(nbr2, 10);
-  var e = c - d;
+  var e = c / 721.3946;
   if (isNaN(e)) {
     document.getElementById("result").style.backgroundColor = "red";
-    document.getElementById("result").value = "Enter Numbers";
+    document.getElementById("result").value = "Enter The Rwanda fr";
   } else {
     document.getElementById("result").style.backgroundColor = "chartreuse";
-    document.getElementById("result").value = e;
+    document.getElementById("result").value = e + "$";
   }
 }
-function times() {
+function euro() {
   var nbr1 = document.getElementById("nbr1").value;
-  var nbr2 = document.getElementById("nbr2").value;
   var c = parseInt(nbr1, 10);
-  var d = parseInt(nbr2, 10);
-  var e = c * d;
+  var e = c / 1136.363636;
   if (isNaN(e)) {
     document.getElementById("result").style.backgroundColor = "red";
-    document.getElementById("result").value = "Enter Numbers";
+    document.getElementById("result").value = "Enter The Rwanda fr";
   } else {
     document.getElementById("result").style.backgroundColor = "chartreuse";
-    document.getElementById("result").value = e;
+    document.getElementById("result").value = e + "€";
   }
 }
-function division() {
+function pounds() {
   var nbr1 = document.getElementById("nbr1").value;
-  var nbr2 = document.getElementById("nbr2").value;
   var c = parseInt(nbr1, 10);
-  var d = parseInt(nbr2, 10);
-  var e = c / d;
+  var e = c / 1265.822785;
   if (isNaN(e)) {
     document.getElementById("result").style.backgroundColor = "red";
-    document.getElementById("result").value = "Enter Numbers";
+    document.getElementById("result").value = "Enter The Rwanda fr";
   } else {
     document.getElementById("result").style.backgroundColor = "chartreuse";
-    document.getElementById("result").value = e;
+    document.getElementById("result").value = e + "£";
+  }
+}
+function chines() {
+  var nbr1 = document.getElementById("nbr1").value;
+  var c = parseInt(nbr1, 10);
+  var e = c / 138.8888889;
+  if (isNaN(e)) {
+    document.getElementById("result").style.backgroundColor = "red";
+    document.getElementById("result").value = "Enter The Rwanda fr";
+  } else {
+    document.getElementById("result").style.backgroundColor = "chartreuse";
+    document.getElementById("result").value = e + "¥";
   }
 }
 function clr() {
